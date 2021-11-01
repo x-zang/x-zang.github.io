@@ -11,8 +11,12 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Bioinformatics, Pennsyvania State University-University Park, 2019-Present
-* B.S. in Cell & Molecular Biology, The Chinese Universiy of Hong Kong, 2015-2019
+* Pennsyvania State University, University Park, Present
+  * Ph.D in Bioinformatics
+  * Advisor: Dr. Mingfu Shao
+  
+* The Chinese Universiy of Hong Kong, 2019
+  * B.S. in Cell & Molecular Biology   
 
 
 Work experience
