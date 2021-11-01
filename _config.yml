@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Xiaofei Carl Zang"
   avatar           : "profile.png"
-  bio              : "Welcome to Carl's page. I'm a PhD candidate in Bioinformatics at Penn State."
+  bio              : "Welcome to Carl's page. \nI'm a PhD candidate in Bioinformatics at Penn State."
   location         : "University Park, PA"
   employer         :
   pubmed           : #""
