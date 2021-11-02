@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Xiaofei Carl Zang"
   avatar           : "profile.png"
-  bio              : "Welcome to Carl's page. \nI'm a PhD candidate in Bioinformatics at Penn State."
+  bio              : "I'm a PhD candidate in Bioinformatics at Penn State."
   location         : "University Park, PA"
   employer         :
   pubmed           : #""
   googlescholar    : #""
-  email            :
+  email            :  xbz5174 {at} psu {dot} edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
