@@ -10,7 +10,7 @@ tags:
 
 This is an (oversimplified) tutorial on getting started on conda. It works for Linux and macOS. All scripts are in bash
 
-#### What is and why conda?
+**What is and why conda?**
 
 Since we are going to discuss issues of anaconda (conda, hereafter), why are we interested in conda? OK, first of all, what is conda? Here is what I cited from [wiki](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)).
 
@@ -25,7 +25,7 @@ You need to do initiation only once.
 Type `conda info` in your terminal. If you see any errors instead of normal information about your conda environment, you need initiation. If you see `conda: command not found`, you need initiation.
 Depending on what computers you are using, you may do the following:
 
-#### If on an administered server or supercomputer
+**If on an administered server or supercomputer**
 
 Your administrator has likely installed `conda` for all users. Try to  load the module. For example, on Penn State [Roar Supercomputer](https://www.icds.psu.edu/computing-services/roar-user-guide/), do `module load anaconda3`. Consult your administrator on how to load the module.
 
@@ -36,7 +36,7 @@ module load anaconda3
 conda init bash
 ```
 
-#### If installed locally or on a personal computer
+**If installed locally or on a personal computer**
 
 First, install conda from https://www.anaconda.com/ (or it might have been installed by your labmate). Then: 
 
