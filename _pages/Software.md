@@ -7,5 +7,4 @@ author_profile: true
 
 {% include base_path %}
 
-Software
-===
+**Altai** is an allele-specific transcript assembler. [[github](https://github.com/Shao-Group/altai)]
