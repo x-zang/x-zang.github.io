@@ -56,7 +56,7 @@ After proper `init`, try `conda info` again. If no error pops, you are good. You
 
 This step is optional but probably saves you from future troubles.
 
-For most of the time, the ` $HOME`directory has limited space, e.g. around 100M-10G. If your environment builds up, it runs out of space quickly. I would recommend avoiding storing any data, performing any experiments, or doing anything with large files in the `$HOME` directory. Only small configure files should be in `$HOME`.
+For most of the time, the `$HOME` directory has limited space, e.g. around 100M-10G. If your environment builds up, it runs out of space quickly. I would recommend avoiding storing any data, performing any experiments, or doing anything with large files in the `$HOME` directory. Only small configure files should be in `$HOME`.
 
 However, the default path of conda package cache is in `$HOME/.conda/pkg`. BAD! I recommend changing the default package cache directory to somewhere else on the disk. See https://docs.anaconda.com/anaconda/user-guide/tasks/shared-pkg-cache/
 
