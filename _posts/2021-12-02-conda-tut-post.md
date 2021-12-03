@@ -8,27 +8,26 @@ tags:
   - conda
 ---
 
-This is a (oversimplified) tutorial on getting started of `conda`. It works for linux and macOS. All scripts are in bash.
+This is an (oversimplified) tutorial on getting started on conda. It works for Linux and macOS. All scripts are in bash
 
 #### What is and why conda?
 
-Since we are going to discuss issues of anaconda (conda, hereafter), why we are interested in `conda`? OK, first of all, what is conda? Here is what I cited from [wiki](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)).
+Since we are going to discuss issues of anaconda (conda, hereafter), why are we interested in conda? OK, first of all, what is conda? Here is what I cited from [wiki](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)).
 
 > Anaconda is a distribution of the Python and R programming languages for scientific computing (data science, machine learning applications, large-scale data processing, predictive analytics, etc.), that aims to simplify package management and deployment."
 
-In short words, the first and formost reason for me to turn to conda is to **download and install packages** (and their dependencies and dependencies of dependencies and depend... ) in a single easy step. A second but equally important reason is to **manage environments for different projects**. For example, I frequently use some tools on python 2, julia 0.5 or R 2.X. Obviously I don't want those tools and their packages to mess up my current important project, so I can use `conda` to create different environments to separate  those tools and side projects. Hence, I avoid conflicts and confusions. 
+In short words, the first and foremost reason for me to turn to conda is to **download and install packages** (and their dependencies and dependencies of dependencies and depend... ) in a single easy step. A second but equally important reason is to **manage environments for different projects**. For example, I frequently use some tools on python 2, Julia 0.5 or R 2.X. Obviously, I don't want those tools and their packages to mess up my current important project, so I can use conda to create different environments to separate those tools and side projects. Hence, I avoid conflicts and confusion. 
 
 # Initiation
 
 You need to do initiation only once. 
 
 Type `conda info` in your terminal. If you see any errors instead of normal information about your conda environment, you need initiation. If you see `conda: command not found`, you need initiation.
+Depending on what computers you are using, you may do the following:
 
-Depends on what computers you are using, you may do the followings:
+#### If on an administered server or supercomputer
 
-#### If on an administred server or supercomputer
-
-It is likely that your administrator have installed `conda` for all users. Try to run the load the module. For example, on Penn State [Roar Supercomputer](https://www.icds.psu.edu/computing-services/roar-user-guide/), do `module load anaconda3`. Consult your administrator for how to load the module.
+Your administrator has likely installed `conda` for all users. Try to  load the module. For example, on Penn State [Roar Supercomputer](https://www.icds.psu.edu/computing-services/roar-user-guide/), do `module load anaconda3`. Consult your administrator on how to load the module.
 
 ```sh
 # load conda module
@@ -37,9 +36,9 @@ module load anaconda3
 conda init bash
 ```
 
-#### If installed locally or on personal computer
+#### If installed locally or on a personal computer
 
-First, install conda from https://www.anaconda.com/ (or it might have been installed by your labmate). 
+First, install conda from https://www.anaconda.com/ (or it might have been installed by your labmate). Then: 
 
 ```sh
 # go to the conda directory
@@ -51,15 +50,15 @@ cd bin
 
 
 
-After proper `init`, try `conda info` again. If no error pops, you are done. You need to do initialization only once.
+After proper `init`, try `conda info` again. If no error pops, you are good. You need to do initialization only once.
 
 # Configure default pkg path
 
 This step is optional but probably saves you from future troubles.
 
-For most of time, the `$HOME` directory has limited space, e.g. around 100M-10G. If your environment builds up, it runs out of space quickly. I would recommend to avoid storing any data, performing any experiments, or doing anything with large files in the `$HOME` directory. Only small configure files should be in `$HOME`.
+For most of the time, the ` $HOME`directory has limited space, e.g. around 100M-10G. If your environment builds up, it runs out of space quickly. I would recommend avoiding storing any data, performing any experiments, or doing anything with large files in the `$HOME` directory. Only small configure files should be in `$HOME`.
 
-However, the default path of conda package cache is in `$HOME/.conda/pkg`. BAD! I recommend change the default package cache directory to somewhere else on the disk.  See https://docs.anaconda.com/anaconda/user-guide/tasks/shared-pkg-cache/
+However, the default path of conda package cache is in `$HOME/.conda/pkg`. BAD! I recommend changing the default package cache directory to somewhere else on the disk. See https://docs.anaconda.com/anaconda/user-guide/tasks/shared-pkg-cache/
 
 Open and edit the conda configuration file (`$HOME/.condarc` ) to add the following lines:
 
@@ -83,7 +82,7 @@ Optionally, you can add your favorite channels to the configuration file.
 
 # Create an environment
 
-You can create a new environment as needed, e.g. for a new project, for a tool with conflicting version of dependencies, or for a older version of a package. 
+You can create a new environment as needed, e.g. for a new project, for a tool with a conflicting version of dependencies, or for an older version of a package. 
 
 Command to create an environment: (not recommended)
 
@@ -91,7 +90,7 @@ Command to create an environment: (not recommended)
 conda create -n env_name
 ```
 
-This command creates a new environment named `env_name` (`-n` means name)  in the default directory `$HOME/.conda/envs`. As mentioned, this might quickly exhaust all the space in your `$HOME` dir. I don't like it.
+This command creates a new environment named `env_name` (`-n` means name) in the default directory `$HOME/.conda/envs`. As mentioned, this might quickly exhaust all the space in your `$HOME` dir. I don't like it.
 
 It is more recommended to create a new environment somewhere else (`-p` means prefix):
 
@@ -101,7 +100,7 @@ conda create -p /some/other/dir/env_name
 
 
 
-Optionally, you can specific the version of your packages during creation, e.g. python 2.7 or R 3.4:
+Optionally, you can specify the version of your packages during creation, e.g. python 2.7 or R 3.4:
 
 ```sh
 conda create -p /some/other/dir/env_name_py2 	 python=2.7
@@ -132,7 +131,6 @@ conda deactivate
 # Install packages
 
 Google for commands to install your packages, most commands are like `conda install pkg_name`. Sometimes there is a `-c channel_name` argument to specify which channel to use.
-
 For example, to install `scallop` transcriptome assembler, you can use:
 
 ```sh
