@@ -13,7 +13,6 @@ I'm currently a PhD candidate in Bioinformatics at the Pennsylvania State Univer
 My research interest is in developing algorithms and methodologies for transcriptome bioinformatics research. My current project focuses on allele-specific transcript assembly. We developed methods to directly decompose the splice-graph and an ILP formulation to solve this problem.
 
 
-Research Projects
-======
+# Research Projects
 ## Allele-specific transcript assembly
 We developed a novel data structure and an ILP formulation for allele-specific assembly problem.
