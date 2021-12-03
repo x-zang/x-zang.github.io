@@ -8,8 +8,6 @@ tags:
   - conda
 ---
 
-# Intro
-
 This is a (oversimplified) tutorial on getting started of `conda`. It works for linux and macOS. All scripts are in bash.
 
 #### What is and why conda?
