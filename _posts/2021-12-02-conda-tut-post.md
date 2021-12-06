@@ -126,7 +126,7 @@ conda deactivate
 
 # Install packages
 
-Google for commands to install your packages. <ost commands are like `conda install pkg_name`. Sometimes there is a `-c channel_name` argument to specify which channel to use.
+Google for commands to install your packages. Most commands are like `conda install pkg_name`. Sometimes there is a `-c channel_name` argument to specify which channel to use.
 For example, to install `scallop` transcriptome assembler, you can use:
 
 ```sh
