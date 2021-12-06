@@ -62,18 +62,17 @@ However, the default path of conda package cache is in `$HOME/.conda/pkg`. BAD! 
 
 Open and edit the conda configuration file (`$HOME/.condarc` ) to add the following lines:
 
-> pkgs_dirs:
+> pkgs_dirs:  
 > 	- /path/to/somewhere/on/disk
 
 
 
 Optionally, you can add your favorite channels to the configuration file.
 
->channels:
->	- bioconda
->	- conda-forge
->	- defaults
-
+>channels:  
+>	- bioconda   
+>	- conda-forge  
+ 
 
 
 # Create an environment
