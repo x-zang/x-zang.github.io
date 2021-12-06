@@ -8,7 +8,7 @@ tags:
   - conda
 ---
 
-This is an (oversimplified) tutorial on getting started on conda. It works for Linux and macOS. All scripts are in bash
+This is an (oversimplified) tutorial on getting started on conda. It works for Linux and macOS. All scripts are in bash.
 
 **What is and why conda?**
 
@@ -63,20 +63,16 @@ However, the default path of conda package cache is in `$HOME/.conda/pkg`. BAD! 
 Open and edit the conda configuration file (`$HOME/.condarc` ) to add the following lines:
 
 > pkgs_dirs:
->
-> ​		- /path/to/somewhere/on/disk
+> 	- /path/to/somewhere/on/disk
 
 
 
 Optionally, you can add your favorite channels to the configuration file.
 
 >channels:
->
->​	- bioconda
->
->​	- conda-forge
->
->​	- defaults
+>	- bioconda
+>	- conda-forge
+>	- defaults
 
 
 
@@ -130,7 +126,7 @@ conda deactivate
 
 # Install packages
 
-Google for commands to install your packages, most commands are like `conda install pkg_name`. Sometimes there is a `-c channel_name` argument to specify which channel to use.
+Google for commands to install your packages. <ost commands are like `conda install pkg_name`. Sometimes there is a `-c channel_name` argument to specify which channel to use.
 For example, to install `scallop` transcriptome assembler, you can use:
 
 ```sh
@@ -151,5 +147,5 @@ conda install pkg_name
 conda deactivate
 ```
 
-Read more about using conda https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html.
+Read more about using conda [https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
