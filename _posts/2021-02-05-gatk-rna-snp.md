@@ -8,8 +8,6 @@ tags:
   - gatk
 ---
 
-# Tutorial: RNA-seq short variant calling using GATK4
-
 GATK is powerful. However, running it may not be as easy. People, especially bioinformatics beginners are often overwhelmed by its powerfulness and complexity. 
 
 This repo is a tutorial of how to locally running the workflow for RNA-seq short variant calling (SNPs & indels) using GATK4. The original workflow is available at [gatk-workflows](https://github.com/gatk-workflows)/**[gatk4-rnaseq-germline-snps-indels](https://github.com/gatk-workflows/gatk4-rnaseq-germline-snps-indels)**, developed by the GATK Team.  This repo is made for my personal interest and record to make it easier to run GATK workflow. Root is not required if this tutorial is followed. The tutorial is made based on the [GATK4 workflow repo](https://github.com/gatk-workflows/gatk4-rnaseq-germline-snps-indels), [its best practice](https://gatk.broadinstitute.org/hc/en-us/articles/360035531192-RNAseq-short-variant-discovery-SNPs-Indels-), and the tutorial on [how to run GATK workflow](https://gatk.broadinstitute.org/hc/en-us/articles/360035530952?id=12521). 
