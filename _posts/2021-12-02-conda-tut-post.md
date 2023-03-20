@@ -60,7 +60,7 @@ For most of the time, the `$HOME` directory has limited space, e.g. around 100M-
 
 However, the default path of conda package cache is in `$HOME/.conda/pkg`. BAD! I recommend changing the default package cache directory to somewhere else on the disk. See https://docs.anaconda.com/anaconda/user-guide/tasks/shared-pkg-cache/
 
-Open and edit the conda configuration file (`$HOME/.condarc` ) to add the following lines:
+Open and edit the conda configuration file (`$HOME/.condarc`. If not present, create one ) to add the following lines:
 ```
 pkgs_dirs:  
 	- /path/to/somewhere/on/disk
