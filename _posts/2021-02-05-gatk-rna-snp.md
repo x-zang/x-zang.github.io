@@ -43,6 +43,8 @@ conda activate gatk
 conda activate ./path/to/directory/
 ```
 
+You might also want to install `java-jdk` if it is not yet installed.
+
 Also, have STAR installed in this environment.
 
 This is a convenient way of installing required conda dependencies of GATK. Sometimes it doesn't work, e.g. conflicts. In case of conda not working, manually install the packages described in this file with `conda` and `pip`.
