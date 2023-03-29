@@ -43,7 +43,7 @@ conda activate gatk
 conda activate ./path/to/directory/
 ```
 
-You might also want to install `java-jdk` if it is not yet installed.
+You might also want to install `java-jdk` if it is not yet installed (`conda install -c cyclus java-jdk`).
 
 Also, have STAR installed in this environment.
 
