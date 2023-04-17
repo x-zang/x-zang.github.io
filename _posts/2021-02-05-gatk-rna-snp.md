@@ -23,6 +23,8 @@ Note: This is for GATK4 and may not be compatible with GATK3.8.
 **Download the latest release** from GATK4 repository https://github.com/broadinstitute/gatk/releases. Downloading the pre-compiled binary file is the easiest installation. Requirements for GATK4 can be found form https://github.com/broadinstitute/gatk.
 
 ```sh
+# download gatk
+# replace the link with latest gatk release from https://github.com/broadinstitute/gatk/releases
 wget https://github.com/broadinstitute/gatk/releases/download/4.1.8.0/gatk-4.1.8.0.zip
 unzip gatk-4.1.8.0.zip
 cd gatk-4.1.8.0
