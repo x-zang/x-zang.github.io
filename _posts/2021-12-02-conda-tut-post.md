@@ -148,3 +148,6 @@ conda deactivate
 
 Read more about using conda [https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
+# Misc
+Sometimes conda may throw an error without further information (e.g. `conda unexpected error has occurred`). It could be because your `~/.condarc` is misconfigured. 
+Make sure `.condarc` is in the correct form and try conda again. If the problem persists, you might want to clear index cache (`conda clean -i`).
