@@ -5,15 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{https://scholar.google.com/citations?user=tZhzac0AAAAJ}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+[Google Scholar](https://scholar.google.com/citations?user=tZhzac0AAAAJ)
 
 - **Zang, X.C.**, Li, X., Metcalfe, K., Ben-Yehezkel, T., Kelley, R., and Shao, M.  
 “Anchorage accurately assembles anchor-flanked synthetic long reads”.  
