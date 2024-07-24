@@ -5,7 +5,7 @@ permalink: /software/
 author_profile: true
 ---
 
-[github](https://github.com/x-zang)
+[GitHub](https://github.com/x-zang)
 
 - **Anchorage** is a synthetic long read (SLR) assembler for anchor-labelled SLR data. [[github](https://github.com/Shao-Group/anchorage)]
   
