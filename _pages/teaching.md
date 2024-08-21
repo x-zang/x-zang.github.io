@@ -2,7 +2,7 @@
 layout: archive
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
+author_profile: false
 ---
 
 - CSE 565 - *Algorithm Design & Analysis*, Teaching Assistant, Fall 2021  
