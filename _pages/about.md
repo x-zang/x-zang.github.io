@@ -8,13 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Carl, a PhD candidate in Bioinformatics at the [Pennsylvania State University (PSU)](https://www.psu.edu/). 
+Hi! I'm Carl, a PhD candidate in Bioinformatics at the [Pennsylvania State University](https://www.psu.edu/). 
 I'm very luckily advised by [Prof. Mingfu Shao](https://sites.psu.edu/mxs2589). 
-Before my PhD study, I obtained my BS in Cell & Molecular Biology with First Class Honours from the [Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk).
+Before my PhD study, I obtained my BS in Cell & Molecular Biology with First Class Honours from the [Chinese University of Hong Kong](https://www.cuhk.edu.hk).
 
-My research interest is developing algorithms and methodologies for assembly problems and transcriptome research, including (allele-specific) transcript assembly, transcriptome annotation, synthetic long reads, etc.
+My research interest is in developing algorithms and methodologies for sequence analysis and transcriptome problems, including sequence assembly, transcriptome assembly and annotation, synthetic long reads, etc.
 
 ## News
+[Sep 2024] I traveled to and presented my proceeding talk "Anchorage" at WABI 2024 in Royal Holloway, University of London. I was awarded the Graduate Travel Award from the Huck Institutes to support my travel. 
+
 [Aug 2024] I attended and moderated a session at the Workshop on Emerging Methods for Sequence Analysis (WEMSA2024) at Penn State. I also presented a poster.
 
 [Jul 2024] I traveled to and presented a poster "Anchorage Accurately Assembles Anchor-flanked Synthetic Long Reads" at ISMB 2024 in Montreal.

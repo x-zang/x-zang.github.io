@@ -2,7 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 [Google Scholar](https://scholar.google.com/citations?user=tZhzac0AAAAJ)
@@ -10,6 +10,7 @@ author_profile: true
 - **Zang, X.C.**, Li, X., Metcalfe, K., Ben-Yehezkel, T., Kelley, R., and Shao, M.  
 “Anchorage accurately assembles anchor-flanked synthetic long reads”.  
 In Proc. 24th Int’l Workshop on Algorithms in Bioinformatics (**WABI’24**),  
+[DOI](https://doi.org/10.4230/LIPIcs.WABI.2024.22),
 [software](https://github.com/Shao-Group/anchorage)
 
 - Zahin, T., Shi, Q., **Zang, X.C.**, and Shao, M.  
