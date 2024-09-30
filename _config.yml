@@ -84,7 +84,7 @@ author:
   avatar           : "profile.png"
   bio              : "I'm a PhD candidate in Bioinformatics at Penn State."
   location         : "University Park, PA"
-  employer         : "Penn State University"
+  employer         :
   pubmed           : #""
   googlescholar    : https://scholar.google.com/citations?user=tZhzac0AAAAJ
   email            : xbz5174@psu.edu
