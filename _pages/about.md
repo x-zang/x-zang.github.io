@@ -15,6 +15,8 @@ Before my PhD study, I obtained my BS in Cell & Molecular Biology with First Cla
 My research interest is in developing algorithms and methodologies for sequence analysis and transcriptome problems, including sequence assembly, transcriptome assembly and annotation, synthetic long reads, etc.
 
 ## News
+[Oct 2024] I presented my work "Augmenting Transcriptome Annotations through the Lens of Splicing Evolution" in Bioinformatics Method Developers Community Day at Penn State.
+
 [Sep 2024] I traveled to and presented my proceeding talk "Anchorage" at WABI 2024 in Royal Holloway, University of London. I was awarded the Graduate Travel Award from the Huck Institutes to support my travel. 
 
 [Aug 2024] I attended and moderated a session at the Workshop on Emerging Methods for Sequence Analysis (WEMSA2024) at Penn State. I also presented a poster.
