@@ -1,11 +1,11 @@
 ---
-title: 'Check strandness of RNA-seq'
+title: 'strandness of RNA-seq and the names'
 date: 2024-09-26
 permalink: /posts/2024/09/check-strandess/
 tags:
-  - pipline
-  - tutorial
-  - gatk
+  - RNA-seq
+  - strandness
+  - trivia
 ---
 
 
