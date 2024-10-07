@@ -1,5 +1,5 @@
 ---
-title: 'strandness of RNA-seq and the names'
+title: 'Strandness of RNA-seq and the naming'
 date: 2024-09-26
 permalink: /posts/2024/09/check-strandess/
 tags:
