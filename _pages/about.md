@@ -6,6 +6,8 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+  - /homepage/
+  - /home/
 ---
 
 Hi! I'm Carl, a PhD candidate in Bioinformatics at the [Pennsylvania State University](https://www.psu.edu/). 
