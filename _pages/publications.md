@@ -14,7 +14,6 @@ Some of my journal articles are extended versions of my conference proceedings p
 - **Zang, X.C.**, Li, X., Metcalfe, K., Ben-Yehezkel, T., Kelley, R., and Shao, M.  
   “Anchorage accurately assembles anchor-flanked synthetic long reads”.  
   In *WABI’24* conference proceedings. [doi](https://doi.org/10.4230/LIPIcs.WABI.2024.22), [software](https://github.com/Shao-Group/anchorage)  
-  Entended version submitted to *Algorithm for Molecular Biology*, Oct 2024
   
 - Zahin, T., Shi, Q.\*, **Zang, X.C.**\*, and Shao, M.  
 “Accurate assembly of circular RNAs with TERRACE”.  
