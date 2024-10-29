@@ -25,8 +25,9 @@ author:
   # Biographic information
   name             : "Xiaofei Carl Zang"
   avatar           : "profile.jpeg"
-  bio              : "I'm a PhD candidate in Bioinformatics at Penn State."
+  bio              : "Job hunting PhD candidate in Bioinformatics"
   location         : "University Park, PA"
+  employer         : "Penn State"
   pronouns         : "he/him"
   uri              : # URL
   email            : xbz5174@psu.edu
