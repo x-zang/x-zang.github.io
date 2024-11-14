@@ -5,7 +5,6 @@ _site/
 
 .DS_Store
 Gemfile.lock
-_posts/
 
 # Ignore the directory for local files during development
 local/
@@ -17,3 +16,4 @@ Gemfile.lock
 node_modules
 package-lock.json
 
+/_drafts

@@ -25,11 +25,11 @@ All of my journal articles and conference proceedings publications are peer-revi
 
 # Manuscripts
 
-- **Zang, X.C.**, Chen, K., Khan, I.M., and Shao, M.
-  "Augmenting Transcriptome Annotations through the Lens of Splicing Evolution".
+- **Zang, X.C.**, Chen, K., Khan, I.M., and Shao, M.  
+  "Augmenting Transcriptome Annotations through the Lens of Splicing Evolution".  
   *Under Review*. [preprint](https://doi.org/10.1101/2024.11.04.621892), [software](https://github.com/Shao-Group/tennis)
 
-- **Zang, X.C.**, and Shao, M.
-  "Altai accurately assembles allele-specific transcripts".
+- **Zang, X.C.**, and Shao, M.  
+  "Altai accurately assembles allele-specific transcripts".  
   *in prep.*
 
