@@ -20,9 +20,15 @@ Contact: [xbz5174@psu.edu](mailto:xbz5174@psu.edu)
 
 My research interest is in developing algorithms for sequence and transcriptome problems, particularly in sequence assembly, transcriptome annotation, and alternative splicing analysis. My work aims to advance our understanding of transcriptome and improve the accuracy of RNA sequencing analysis. My publications can be found [here](https://x-zang.github.io/publications/).
 
-[<img src="../files/SLRAssembly.jpg" alt="SLR assembly"      height="240"     title="Anchorage accurately assembles anchor-flanked synthetic long reads@WABI2024"/>](https://doi.org/10.4230/LIPIcs.WABI.2024.22) [<img src="../files/AlleleSpecEvo.jpg" alt="Alternative Splicing Evolution"    height="240"     title="Augmenting Transcriptome Annotations through the Lens of Splicing Evolution"/>](https://doi.org/10.1101/2024.11.04.621892) [<img src="../files/ASAS.jpg" alt="Allele-Specific Alternative Splicing"    height="240"     title="Altai accurately assembles allele-specific transcripts"/>](https://x-zang.github.io/)
-
-
+<p float="left">
+  <a href="https://doi.org/10.4230/LIPIcs.WABI.2024.22">
+  <img src="../files/SLRAssembly.jpg" width="240" />
+  </a><a href="https://doi.org/10.1101/2024.11.04.621892">
+  <img src="../files/AlleleSpecEvo.jpg" width="240" />
+  </a><a href="https://x-zang.github.io/">
+  <img src="../files/ASAS.jpg" width="240" />
+  </a>
+</p>
 
 ## News
 
