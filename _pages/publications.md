@@ -7,9 +7,6 @@ author_profile: false
 
 [Google Scholar](https://scholar.google.com/citations?user=tZhzac0AAAAJ)
 
-Some of my journal articles are extended versions of my conference proceedings publication. 
-All of my journal articles and conference proceedings publications are peer-reviewed. 
-
 
 
 - **Zang, X.C.**, Li, X., Metcalfe, K., Ben-Yehezkel, T., Kelley, R., and Shao, M.  
