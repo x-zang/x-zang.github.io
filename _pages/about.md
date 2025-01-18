@@ -10,9 +10,17 @@ redirect_from:
   - /home/
 ---
 
-Hi! I'm Carl, a PhD candidate in Bioinformatics at the Pennsylvania State University, advised by [Prof. Mingfu Shao](https://sites.psu.edu/mxs2589). I expect to graduate in May 2025 and *am actively looking for a position in computational biology, bioinformatics, and computer science area*. Before my PhD study, I obtained my BS in Cell & Molecular Biology with First Class Honours from the Chinese University of Hong Kong.
+Hi! I'm Carl, a PhD candidate in Bioinformatics at the Pennsylvania State University, advised by [Prof. Mingfu Shao](https://sites.psu.edu/mxs2589). I expect to graduate in May 2025 and am actively **looking for a position in computational biology, bioinformatics, and/or computer science** area. Before my PhD study, I obtained my BS in Cell & Molecular Biology with First Class Honours from the Chinese University of Hong Kong.
 
-My research interest is in developing algorithms for sequence and transcriptome problems, particularly in sequence assembly, transcriptome annotation, and alternative splicing analysis. I've developed several computational tools including TENNIS for enhancing transcriptome annotations through evolutionary analysis, Anchorage for assembling synthetic long reads with anchoring information, and Altai for reconstructing allele-specific transcripts. My work aims to advance our understanding of transcriptome complexity and improve the accuracy of RNA sequencing analysis.
+Contact: [xbz5174@psu.edu](mailto:xbz5174@psu.edu)
+
+
+
+## Research
+
+My research interest is in developing algorithms for sequence and transcriptome problems, particularly in sequence assembly, transcriptome annotation, and alternative splicing analysis. My work aims to advance our understanding of transcriptome and improve the accuracy of RNA sequencing analysis. My publications can be found [here](https://x-zang.github.io/publications/).
+
+[<img src="../files/SLRAssembly.pdf" alt="SLR assembly"      height="240"     title="Anchorage accurately assembles anchor-flanked synthetic long reads@WABI2024"/>](https://doi.org/10.4230/LIPIcs.WABI.2024.22) [<img src="../files/AlleleSpecEvo.pdf" alt="Alternative Splicing Evolution"    height="240"     title="Augmenting Transcriptome Annotations through the Lens of Splicing Evolution"/>](https://doi.org/10.1101/2024.11.04.621892) [<img src="../files/ASAS.pdf" alt="Allele-Specific Alternative Splicing"    height="240"     title="Altai accurately assembles allele-specific transcripts"/>](https://x-zang.github.io/)
 
 
 
