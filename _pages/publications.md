@@ -20,13 +20,11 @@ author_profile: false
 
 
 
-# Manuscripts
+# Preprints
 
 - **Zang, X.C.**, Chen, K., Khan, I.M., and Shao, M.  
-  "Augmenting Transcriptome Annotations through the Lens of Splicing Evolution".  
+  "Augmenting Transcriptome Annotations through the Lens of Splicing Evolution". 
   [preprint](https://doi.org/10.1101/2024.11.04.621892), [software](https://github.com/Shao-Group/tennis)
 
-- **Zang, X.C.**, and Shao, M.  
-  "Altai accurately assembles allele-specific transcripts".  
-  *in prep.*
+  
 
