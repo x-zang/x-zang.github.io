@@ -1,23 +1,46 @@
 ---
 title: 'Strandness of RNA-seq and Transcripts Explained'
 date: 2024-09-26
-updated: 2024-11-14
+updated: 2025-02-28
 permalink: /posts/2024/09/check-strandess/
 tags:
   - RNA-seq
   - transcriptome
-  - trivia
 ---
 
 
 
 Two posts by [Griffith Lab](https://rnabio.org/module-09-appendix/0009/12/01/StrandSettings/) and by [Hong Zheng](https://littlebitofdata.com/en/2017/08/strandness_in_rnaseq/) are already pretty comprehensive in describing the strandness parameters of many tools. Here I make some notes for my own records. 
 
-Two tools, [infer_experiment.py](https://rseqc.sourceforge.net/#infer-experiment-py) from RSeQC and [check_strandness](https://github.com/signalbash/how_are_we_stranded_here) are easy-to-use tools for checking strandness.
-
-
-
 # Strandness of RNA-seq
+
+Imagine we collected some RNA molecules, performed the sequencing experiments, and obtained a bunch of paired-end RNA-seq reads (respectively R1 and R2 for each end of one pair). Now we want to know whether R1 has the same sequence as the original RNA or R2 has the same sequence as the original RNA (but of course, the reads are shorter and erroneous compared to an RNA molecule). This is called **strandness** of RNA-seq.
+
+As of today, the mainstream of NGS (e.g. Illumina) technology is sequence-by-synthesis (SBS). Consequently, R1 and R2 must be from different strands of the RNA molecule, because they are synthesized from different directions! That means we have only 2 possibilities of strandness: (1) R1 is from sense-strand and R2 is form anti-sense-strand; or (2) R1 is from anti-sense strand and R2 is from sense-strand. Here we call the strand with the *same* sequences of the RNA as *sense* strand. Likewise, the strand that is reverse-complementary to the RNA is called *anti-sense* strand.
+
+## Naming conventions 
+
+Most of the name conventions fall into two types: `rf/fr` for `strandness` and `first/second` for `library type`.
+
+**RF**: The first read is **R**everse sequence of RNA and the second read is **F**orward sequence of RNA.
+
+**FR**: The first read is **F**orward sequence of RNA and the second read is **R**everse sequence of RNA.
+
+
+
+The `first/second` library types can be somewhat confusing (at least I got confused a few times...). R1 of `first` stranded libraries are the same as the *anti-sense* strand and vice versa. This is because the sequenced substrates in RNA-seq technologies are (for most of the time) cDNAs. The first cDNA strand, which uses the RNA as template, is rev-comp to the RNA sequence. Then cDNA molecules can be synthesized to be double-stranded. Since cDNAs are double-stranded, this further divides technologies by whether:
+
+**first**: sequencing the first cDNA strand (anti-sense)
+
+**second**: sequencing the second cDNA strand (sense). 
+
+Note that the first cDNA strand is reverse-complementary to the RNA molecule.
+
+
+
+## Parameters for some bioinformatics tools
+
+Two tools, [infer_experiment.py](https://rseqc.sourceforge.net/#infer-experiment-py) from RSeQC and [check_strandness](https://github.com/signalbash/how_are_we_stranded_here) are easy-to-use tools for checking strandness.
 
 Assuming all reads are *paired* and sequenced *inwards*. 
 
@@ -31,26 +54,6 @@ Assuming all reads are *paired* and sequenced *inwards*.
 | Salmon              | `--libType ISF`                           | `--libType ISR`                           | `--libType IU`                                               |
 | Scallop             | `--library_type second`                   | `--library_type first`                    | `--library_type unstranded`                                  |
 | Stringtie           | `--fr`                                    | `--rf`                                    |                                                              |
-
-
-
-## Strandness naming conventions 
-
-Most of the parameters above fall into two types: `rf/fr` for `strandness` and `first/second` for `library type`.
-
-**RF**: The first read is **R**everse sequence of RNA and the second read is **F**orward sequence of RNA.
-
-**FR**: The first read is **F**orward sequence of RNA and the second read is **R**everse sequence of RNA.
-
-
-
-The `first/second` library types can be somewhat confusing (at least I got confused a few times...). R1 of `first` stranded libraries are the same as the *anti-sense* strand and vice versa. This is because the sequenced substrates in RNA-seq technologies are (for most of the time) cDNAs. Since DNAs are double-stranded, this further divides technologies by whether:
-
-**first**: sequencing the first cDNA strand (anti-sense)
-
-**second**: sequencing the second cDNA strand (sense). 
-
-Note that the first cDNA strand is reverse-complementary to the RNA molecule.
 
 
 
