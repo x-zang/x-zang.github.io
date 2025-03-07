@@ -12,7 +12,7 @@ redirect_from:
 
 Hi! I'm Carl, a PhD candidate in Bioinformatics at the Pennsylvania State University, advised by [Prof. Mingfu Shao](https://sites.psu.edu/mxs2589). I expect to graduate in May 2025 and am actively **looking for a position in computational biology and/or computer science** area. Before my PhD study, I obtained my BS in Cell & Molecular Biology with First Class Honours from the Chinese University of Hong Kong.
 
-My research focuses on advancing transcriptome analysis through the development of computational methods that address challenges in RNA sequencing and assembly. My work integrates algorithms, machine learning, and biological observations to investigate problems such as alternative splicing, allele-specific expression, and transcript assembly using various sequencing technologies. My publications can be found [here](https://x-zang.github.io/publications/).
+My research focuses on advancing transcriptome analysis through the development of computational methods that address challenges in RNA sequencing and assembly. My work integrates algorithms, machine learning, and biological insights to investigate problems such as alternative splicing, allele-specific expression, and transcript assembly using various sequencing technologies. My publications can be found [here](https://x-zang.github.io/publications/).
 
 Contact: [xbz5174@psu.edu](mailto:xbz5174@psu.edu)
 
