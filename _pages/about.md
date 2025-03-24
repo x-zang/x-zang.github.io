@@ -28,6 +28,8 @@ Contact: [xbz5174@psu.edu](mailto:xbz5174@psu.edu)
 
 ## News
 
+[Mar 2025] My abstract (oral presentation) was accepted to GLBIO'25. I will present on a novel computational method for single-cell RNA-seq assembly.
+
 [Oct 2024] I presented my work "Augmenting Transcriptome Annotations through the Lens of Splicing Evolution" in Bioinformatics Method Developers Community Day at Penn State. Update Nov '24: This work "[TENNIS](https://doi.org/10.1101/2024.11.04.621892)" is available as a preprint.
 
 [Sep 2024] I traveled to and presented my proceeding talk *Anchorage* at **WABI** 2024 in Royal Holloway, University of London, UK. The proceeding paper is published and freely available at [doi:10.4230/LIPIcs.WABI.2024.22](https://doi.org/10.4230/LIPIcs.WABI.2024.22).
