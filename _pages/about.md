@@ -43,3 +43,10 @@ Contact: [xbz5174@psu.edu](mailto:xbz5174@psu.edu)
 [Jul 2024] My co-authored work "*TERRACE*", previously accepted to RECOMB 2024, has now been accepted to [Genome Research](https://doi.org/10.1101/gr.279106.124).
 
 [Jun 2024] My first-author work, on an assembler for anchor-enabled synthetic long reads data (“*Anchorage*”), has been accepted to **WABI** 2024.
+
+<br>
+
+<div style="text-align: center;">
+  <img src="https://www.explainxkcd.com/wiki/images/4/42/rna_2x.png" alt="RNA" width="720">
+    <p>Image credit: xkcd.com/3056 licensed under CC BY-NC 2.5</p>
+</div>
