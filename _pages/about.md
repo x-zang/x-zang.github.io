@@ -28,9 +28,7 @@ Contact: [xbz5174@psu.edu](mailto:xbz5174@psu.edu)
 
 ## News
 
-[Mar 2025] I was awarded the Huck Travel Award to support my travel. Thanks to the generous support from Huck Institutes. 
-
-[Mar 2025] My abstract (oral presentation) was accepted to GLBIO'25. I will present on a novel computational method for single-cell RNA-seq assembly.
+[Mar 2025] My work on a novel computational method for single-cell RNA-seq assembly was accepted to GLBIO'25 for oral presentation.
 
 [Oct 2024] I presented my work "Augmenting Transcriptome Annotations through the Lens of Splicing Evolution" in Bioinformatics Method Developers Community Day at Penn State. Update Nov '24: This work "[TENNIS](https://doi.org/10.1101/2024.11.04.621892)" is available as a preprint.
 
