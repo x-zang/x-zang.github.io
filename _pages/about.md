@@ -30,19 +30,19 @@ Contact: [xbz5174@psu.edu](mailto:xbz5174@psu.edu)
 
 [May 2025] I defended my PhD dissertation! 📚🎓🎉
 
-[Mar 2025] My work on a novel computational method for single-cell RNA-seq assembly was accepted to GLBIO'25 for oral presentation.
+[Mar 2025] My work on a novel computational method for single-cell RNA-seq assembly was accepted to *GLBIO'25* for oral presentation.
 
 [Oct 2024] I presented my work "Augmenting Transcriptome Annotations through the Lens of Splicing Evolution" in Bioinformatics Method Developers Community Day at Penn State. Update Nov '24: This work "[TENNIS](https://doi.org/10.1101/2024.11.04.621892)" is available as a preprint.
 
-[Sep 2024] I traveled to and presented my proceeding talk *Anchorage* at **WABI** 2024 in Royal Holloway, University of London, UK. The proceeding paper is published and freely available at [doi:10.4230/LIPIcs.WABI.2024.22](https://doi.org/10.4230/LIPIcs.WABI.2024.22).
+[Sep 2024] I traveled to and presented my proceeding talk *Anchorage* at *WABI* 2024 in Royal Holloway, University of London, UK. The proceeding paper is published and freely available at [doi:10.4230/LIPIcs.WABI.2024.22](https://doi.org/10.4230/LIPIcs.WABI.2024.22).
 
-[Aug 2024] I was awarded the Graduate Travel Award from the Huck Institutes of the Life Sciences to support my travel to WABI in UK. Thanks to the generous support from Huck Institutes. 
+[Aug 2024] I was awarded the Graduate Travel Award from the Huck Institutes of the Life Sciences to support my travel to *WABI* in UK. Thanks to the generous support from Huck Institutes. 
 
-[Jul 2024] I traveled to and presented a poster "Anchorage Accurately Assembles Anchor-flanked Synthetic Long Reads" at **ISMB** 2024 in Montreal, QC. 
+[Jul 2024] I traveled to and presented a poster "Anchorage Accurately Assembles Anchor-flanked Synthetic Long Reads" at *ISMB* 2024 in Montreal, QC. 
 
-[Jul 2024] My co-authored work "*TERRACE*", previously accepted to RECOMB 2024, has now been accepted to [Genome Research](https://doi.org/10.1101/gr.279106.124).
+[Jul 2024] My co-authored work "[TERRACE](https://doi.org/10.1101/gr.279106.124)", previously accepted to *RECOMB* 2024, has now been accepted to *Genome Research*.
 
-[Jun 2024] My first-author work, on an assembler for anchor-enabled synthetic long reads data (“*Anchorage*”), has been accepted to **WABI** 2024.
+[Jun 2024] My first-author work "[Anchorage](https://doi.org/10.4230/LIPIcs.WABI.2024.22)", on an assembler for anchor-enabled synthetic long reads data (“*Anchorage*”), has been accepted to *WABI* 2024.
 
 <br>
 
