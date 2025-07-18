@@ -2,11 +2,10 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Teaching Experience
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+- CSE 565 - *Algorithm Design & Analysis*, Teaching Assistant, Fall 2021  
+- CMPSC 465 - *Data Structures & Algorithms*, Teaching Assistant, Spring 2023
