@@ -1,14 +1,16 @@
 ---
 layout: default
 permalink: /blog/
+redirect_from: 
+  - /year-archive/
 title: blog
 nav: true
-nav_order: 1
+nav_order: 3
 pagination:
   enabled: true
   collection: posts
   permalink: /page/:num/
-  per_page: 5
+  per_page: 10
   sort_field: date
   sort_reverse: true
   trail:
