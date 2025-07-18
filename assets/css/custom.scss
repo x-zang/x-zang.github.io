@@ -1,0 +1,112 @@
+// Custom blue theme overrides
+// This file overrides the default purple theme with blue colors
+
+:root {
+  // Override theme color from purple to blue
+  --global-theme-color: #0076df;
+  --global-hover-color: #0076df;
+  
+  // Override code background color to use blue instead of purple
+  --global-code-bg-color: rgba(0, 118, 223, 0.05);
+}
+
+html[data-theme="dark"] {
+  // Override dark theme colors to use blue instead of cyan
+  --global-theme-color: #0076df;
+  --global-hover-color: #0076df;
+}
+
+// Additional overrides for specific elements that might use purple
+a {
+  color: var(--global-theme-color);
+  
+  &:hover {
+    color: var(--global-hover-color);
+  }
+}
+
+code {
+  color: var(--global-theme-color);
+  background-color: var(--global-code-bg-color);
+}
+
+// Override any remaining purple references
+.navbar-nav .nav-item.active > .nav-link {
+  color: var(--global-theme-color);
+}
+
+.progress-bar {
+  background-color: var(--global-theme-color);
+}
+
+progress {
+  color: var(--global-theme-color);
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--global-theme-color);
+}
+
+progress::-moz-progress-bar {
+  background-color: var(--global-theme-color);
+}
+
+// Additional comprehensive overrides
+.post-meta a {
+  color: var(--global-theme-color);
+  
+  &:hover {
+    color: var(--global-hover-color);
+  }
+}
+
+.post-tags a {
+  color: var(--global-text-color-light);
+  
+  &:hover {
+    color: var(--global-theme-color);
+  }
+}
+
+.social .contact-icons a:hover i::before {
+  color: var(--global-theme-color);
+}
+
+.navbar .dropdown-menu a:hover {
+  color: var(--global-hover-color);
+}
+
+.dropdown-item:hover {
+  color: var(--global-hover-color);
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--global-hover-color);
+}
+
+footer a:hover {
+  color: var(--global-theme-color);
+}
+
+.cv .list-group-item .badge {
+  background-color: var(--global-theme-color) !important;
+}
+
+nav[data-toggle="toc"] .nav > li > a:hover {
+  color: var(--global-hover-color);
+  border-left-color: var(--global-hover-color);
+}
+
+.btn-group.dropdown .dropdown-item:hover {
+  color: var(--global-hover-color);
+}
+
+.btn-group.dropdown .dropdown-item.active,
+.btn-group.dropdown .dropdown-item:active {
+  background-color: var(--global-hover-color);
+  color: var(--global-hover-text-color) !important;
+}
+
+.code-display-wrapper:hover .copy {
+  color: var(--global-hover-color);
+} 
