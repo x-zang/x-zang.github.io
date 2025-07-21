@@ -4,10 +4,12 @@ giscus_comments: true
 related_posts: false
 title: 'Anaconda getting started'
 date: 2021-12-02
-permalink: /posts/2021/12/conda-post/
 tags:
   - conda
   - python
+  - dependency management
+category:
+  - tutorial
 ---
 
 This is an (oversimplified) tutorial on getting started on conda. It works for Linux and macOS. All scripts are in bash.

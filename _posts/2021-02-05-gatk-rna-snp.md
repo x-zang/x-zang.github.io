@@ -4,11 +4,12 @@ giscus_comments: true
 related_posts: false
 title: 'Tutorial: RNA-seq short variant calling using GATK4'
 date: 2021-02-05
-permalink: /posts/2021/02/gatk-rna-snp/
 tags:
   - gatk
   - rna-seq
   - variation
+category:
+  - tutorial
 ---
 
 GATK is powerful. However, running it may not be as easy. People, especially bioinformatics beginners are often overwhelmed by its powerfulness and complexity. 

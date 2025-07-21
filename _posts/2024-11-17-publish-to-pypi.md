@@ -4,10 +4,11 @@ giscus_comments: true
 related_posts: false
 title: 'Publish Python packages to PyPI (pip)'
 date: 2024-11-17
-permalink: /posts/2024/11/Publish-Python-packages-to-PyPI/
 tags:
   - python
   - publication
+category:
+  - tutorial
 ---
 
 A step-by-step pipeline for uploading and publishing a Python package to [PyPI](https://pypi.org/) that can be installed with `pip`. This pipeline includes the repo structure, py project configuration, building and publishing package.

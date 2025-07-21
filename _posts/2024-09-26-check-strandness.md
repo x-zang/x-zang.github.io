@@ -5,10 +5,12 @@ related_posts: false
 title: 'Strandness of RNA-seq and Transcripts Explained'
 date: 2024-09-26
 last_updated: 2025-02-28
-permalink: /posts/2024/09/check-strandess/
 tags:
   - rna-seq
   - transcriptome
+  - sequencing method 
+category:
+  - note
 ---
 
 
@@ -47,9 +49,9 @@ Two tools, [infer_experiment.py](https://rseqc.sourceforge.net/#infer-experiment
 
 Assuming all reads are *paired* and sequenced *inwards*. 
 
-| RNA                 | 5' --> 3'                                 | 3' --> 5'                                 |                                                              |
+| RNA                 | 5' --> 3'                                 | 3' --> 5'                                 | unstranded                                                   |
 | ------------------- | ----------------------------------------- | ----------------------------------------- | ------------------------------------------------------------ |
-| DNA                 | coding/ sense  strand                     | noncoding/ anti-sense                     |                                                              |
+|                     | coding/ sense  strand                     | noncoding/ anti-sense                     | Mixed of both strands                                        |
 | Reads               | R1 is a sub-string of RNA, R2 is rev-comp | R2 is a sub-string of RNA, R1 is rev-comp | Both R1 and R2 may be the same or rev-comp of a sub-string of RNA |
 | infer_experiment.py | 1++,1--,2+-,2-+                           | 1+-,1-+,2++,2--                           |                                                              |
 | check_strandness    | FR/fr-secondstrand                        | RF/fr-firststrand                         |                                                              |
@@ -57,6 +59,14 @@ Assuming all reads are *paired* and sequenced *inwards*.
 | Salmon              | `--libType ISF`                           | `--libType ISR`                           | `--libType IU`                                               |
 | Scallop             | `--library_type second`                   | `--library_type first`                    | `--library_type unstranded`                                  |
 | Stringtie           | `--fr`                                    | `--rf`                                    |                                                              |
+
+
+
+## Loss of strand-specifity
+
+Sometimes the sequencing protocol *per se* is strand-specific, but due to various reasons, the reads may lose the strand-specifity and become unstranded. Strand specificity requires us to know which strand is being sequenced/synthesized. Is this strand our direct RNA, the 1st cDNA, the 2nd cDNA, ..., etc. 
+
+A common senario to lost strand-specifity is that the sequenced molecule is not single-strand RNA. For example, some experiments may amplify their target transcript using PCR. Then the actual molecules in the sequencer, are double-stranded cDNAs after many aplificaiton cycles. Hence, we won't know which strand of the cDNA is sense and which is anti-sense. 
 
 
 

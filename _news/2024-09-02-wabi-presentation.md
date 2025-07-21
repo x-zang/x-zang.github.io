@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-09-2 12:00:00-0400
+date: 2024-09-02 12:00:00-0400
 inline: true
 related_posts: false
 ---
