@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-publish-python-packages-to-pypi-pip",
+        },{id: "post-nextflow-stackoverflowerror-due-to-undefined-workflow-metadata",
+        
+          title: "Nextflow StackOverflowError due to undefined workflow metadata",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/nextflow-stackoverflow-metadata/";
+          
+        },
+      },{id: "post-publish-python-packages-to-pypi-pip",
         
           title: "Publish Python packages to PyPI (pip)",
         
@@ -38,7 +49,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/posts/2024/11/Publish-Python-packages-to-PyPI/";
+            window.location.href = "/blog/publish-to-pypi/";
           
         },
       },{id: "post-strandness-of-rna-seq-and-transcripts-explained",
@@ -49,7 +60,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/posts/2024/09/check-strandess/";
+            window.location.href = "/blog/check-strandness/";
           
         },
       },{id: "post-anaconda-getting-started",
@@ -60,7 +71,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/posts/2021/12/conda-post/";
+            window.location.href = "/blog/conda-tut-post/";
           
         },
       },{id: "post-tutorial-rna-seq-short-variant-calling-using-gatk4",
@@ -71,7 +82,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/posts/2021/02/gatk-rna-snp/";
+            window.location.href = "/blog/gatk-rna-snp/";
           
         },
       },{id: "news-my-first-author-work-anchorage-on-an-assembler-for-anchor-enabled-synthetic-long-reads-data-anchorage-has-been-accepted-to-wabi-2024",
